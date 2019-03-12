@@ -1,0 +1,36 @@
+#big-container{
+    /* display:grid; */
+    /* display:block
+    height:150px;
+    width:100%;
+    background-color: black; */
+  background-color: lightgrey;
+  height: auto;
+  width: 600px;
+  border: 50px solid green;
+  padding: 25px;
+  margin: 25px;
+
+}  
+#header{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid column:1/span 2;
+    border-color: #cccccc;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    text-align:right;
+    font-size: bold;
+}
+#small-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+#column1{
+    grid-column:1/span 1;
+}
+#row1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 
+}
